@@ -1,0 +1,57 @@
+.game {
+    padding-left: 5vw;
+    padding-top: 10vh;
+    height: 40vh;
+    width: 20vw;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.cell {
+    width: 5vw;
+    height: 10vh;
+    border: 5px solid #bbada0;
+    background: #d3cac1;
+    font-size: 30px;
+    font-family: 'Google Sans';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+}
+
+.newgame {
+    width: 8vw;
+    height: 5vh;
+    border: 3px solid #bbada0;
+    background: #d3cac1;
+    font-size: 18px;
+    font-family: 'Google Sans';
+    font-weight: 350;
+}
+
+.score {
+    padding: 5px 0 0 10px;
+    width: 10vw;
+    height: 5vh;
+    border: 3px solid #bbada0;
+    background: #d3cac1;
+    font-size: 20px;
+    font-family: 'Google Sans';
+}
+
+.textbox {
+    width: 20vw;
+    height: 10vh;
+    border: 3px solid #bbada0;
+    background: #d3cac1;
+    font-size: 20px;
+    font-family: 'Google Sans';
+    text-align: center;
+}
